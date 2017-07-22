@@ -6,7 +6,7 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
 @Component
-@PropertySource("classpath:client.properties")
+@PropertySource("classpath:project.properties")
 public class Client {
     private String id;
     private String name;

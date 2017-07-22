@@ -1,12 +1,14 @@
 package com.epam.spring.core.bean;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.UUID;
 
+@Component
+@Scope("prototype")
 public class Event {
     private String id;
     private String msg;

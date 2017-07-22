@@ -11,7 +11,7 @@ import java.io.File;
 import java.io.IOException;
 
 @Component
-@PropertySource("classpath:client.properties")
+@PropertySource("classpath:project.properties")
 public class FileEventLogger implements EventLogger {
     private File file;
     private String filename;

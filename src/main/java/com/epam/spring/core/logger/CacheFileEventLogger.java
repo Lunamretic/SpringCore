@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-@PropertySource("classpath:client.properties")
+@PropertySource("classpath:project.properties")
 public class CacheFileEventLogger extends FileEventLogger {
     private int cacheSize;
     private List<Event> cache;
